@@ -46,3 +46,63 @@ nav ul{
     font-weight: 400;
     font-size: 1rem;
 }
+/* banner style */
+.banner-section{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.banner-title-description{
+    margin-top: 383px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4.0625rem;
+    margin: 0;
+    margin-bottom: 13px;
+}
+.banner-title-style{
+    color: #E95A08;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 1.375rem;
+    margin: 0;
+}
+.banner-img{
+    margin-top: 327px;
+}
+@media screen and (max-width:576px) {
+    .nav-home, .nav-shop, .nav-about-us{
+        display: none;
+    }
+    nav{
+        /* width: 90%; */
+    }
+    .nav-img{
+        width: 70px;
+        height: 38px;
+    }
+    .nav-card{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: 100px;
+    }
+    .banner-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-title{
+        font-size: 2.70rem;
+    }
+    .banner-img{
+        margin: 28px auto;
+    }
+    .banner-title-description{
+        margin: 0 auto;
+        width: 570px;
+    }
+    
+}
