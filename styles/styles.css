@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 button:hover{
-    background-color: green;
+    background-color: #C97BFF;
     cursor: pointer;
 }
 .noto-serif{
@@ -129,6 +129,42 @@ nav ul{
     font-size: 16px;
     border: none;
 }
+.main-second-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 600px;
+    margin-top: 200px;
+    margin-bottom: 133px;
+}
+.main-second-flower-img{
+    position: absolute;
+    width: 540px;
+    height: 597px;
+}
+.main-second-trusted-img{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 350px;
+}
+.main-second-title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.main-second-description{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+}
+.main-second-description-list{
+    margin-bottom: 15px;
+}
 @media screen and (max-width:576px) {
     .nav-home, .nav-shop, .nav-about-us{
         display: none;
@@ -174,6 +210,29 @@ nav ul{
         display: block;
         width: 500px;
         margin-left: 30px;
+    }
+    .main-second-section{
+        flex-direction: column;
+        margin: 0;
+    }
+    .main-second-flower-img{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .main-second-trusted-img{
+        display: none;
+    }
+    .main-second-title{
+        margin-top: 80px;
+        margin-left: 10px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .main-second-description{
+        font-weight: 400;
+        font-size: 16px;
+        width: 500px;
+        margin-bottom: 150px;
     }
     
 }
