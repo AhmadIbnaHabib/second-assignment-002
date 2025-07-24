@@ -191,23 +191,144 @@ nav ul{
     margin-left: 135px;
     margin-bottom: 120px;
 }
+.main-fourth-section{
+    display: flex;
+}
 .main-third-bg{
     background-image: url('../assets/deal-bloom.png');
     background-repeat: no-repeat;
     width: 360px;
     height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+.main-third-bg-second{
+    background-image: url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.main-third-bg-third{
+    background-image: url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 425px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    border-radius: 15px;
 }
 .main-third-title{
     margin: 0;
     font-weight: 700;
-    font-size: 20px;
-    color: white;
+    font-size: 50px;
 }
 .main-third-description{
+    color: white;
     margin: 0;
     font-weight: 600;
     font-size: 16px;
+    text-decoration:underline;
 }
+.main-third-0ff{
+    color: white;
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 70px;
+}
+.main-third-zabo{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    padding-top: 150px;
+}
+.main-third-description-second{
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0;
+    color: white;
+}
+.login-form-section{
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 533px;
+    margin-top: 120px;
+}
+.login-form-title{
+    color: white;
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 199px;
+}
+.login-form{
+    font-weight: 400;
+    font-size: 16px;
+    width: 644px;
+    height: 50px;
+    margin: 0;
+    padding-left: 20px;
+    border: none;
+}
+.login-form-btn{
+    color: white;
+    background-color: #E95A08;
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    width: 186px;
+    height: 52px;
+    border: none;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 50px auto;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+    width: 360px;
+    margin-top: 10px;
+}
+.footer-anchor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 110px;
+    row-gap: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+}
+.footer-icon{
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+.twitter{
+    margin-bottom: 8px;
+}
+/* responsive style */
+
 @media screen and (max-width:576px) {
     .nav-home, .nav-shop, .nav-about-us{
         display: none;
@@ -277,5 +398,88 @@ nav ul{
         width: 500px;
         margin-bottom: 150px;
     }
-    
+    .main-fourth-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-third-title{
+        font-weight: 700;
+        font-size: 32px;
+        margin-left: 170px;
+        margin-bottom: 25px;
+    }
+    .main-third-descripton{
+        font-weight: 400;
+        font-size: 16px;
+        width: 380px;
+        margin: 0;
+        margin-left: 90px;
+        margin-bottom: 50px;  
+    }
+    .main-third-bg{
+        margin: 0;
+        width: 360px;
+        height: 184px;
+        margin-left: 100px;
+    }
+    .main-third-bg-second{
+        margin: 0;
+        width: 360px;
+        height: 184px;
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+    .main-third-bg-third{
+        margin: 0;
+        width: 362px;
+        height: 172px;
+        margin-top: 25px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+    .main-third-zabo{
+        margin: 0;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: -90px;
+    }
+    .main-third-description-second{
+        margin: 0;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .login-form-section{
+        margin: 0;
+        width: 562px;
+        height: 450px;
+    }
+    .login-form-title{
+        margin: 0;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .form-container{
+        margin: 0;
+        width: 321px;
+        height: 50px;
+        margin-left: 120px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-anchor{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .footer-logo-description{
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .icon-container{
+        margin-left: 10px;
+    }
 }
+
+
+/* alhamdulillah */
