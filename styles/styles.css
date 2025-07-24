@@ -334,17 +334,17 @@ footer a{
         display: none;
     }
     nav{
-        /* width: 90%; */
+        
     }
     .nav-img{
         width: 70px;
         height: 38px;
-        margin-left: 15px;
+        margin-left: 25px;
     }
     .nav-card{
         display: flex;
         align-items: center;
-        margin-left: 200px;
+        margin-left: 155px;
         gap: 5px;
         
     }
@@ -353,7 +353,10 @@ footer a{
         flex-direction: column-reverse;
     }
     .banner-title{
-        font-size: 2.70rem;
+        font-weight: 700;
+        font-size: 45px;
+        margin: 0;
+        margin-bottom: 25px;
     }
     .banner-img{
         margin: 28px auto;
@@ -482,4 +485,4 @@ footer a{
 }
 
 
-/* alhamdulillah */
+                                                                                                /* alhamdulillah */
